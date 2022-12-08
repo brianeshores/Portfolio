@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./global.css">
+    <link rel="stylesheet" href="./resume.css">
+    <link rel="stylesheet" href="https://use.typekit.net/dcf6kyk.css">
+    <link rel="stylesheet" href="https://use.typekit.net/dcf6kyk.css">
+    <title>Brian Murray</title>
+</head>
+<body>
+    <div class="main">
+        <img src="./images/resume-background.png" alt="background texture" class="background">
+        <div class="header">
+            <a href="./home.html"><div class="nav-button">HOME</div></a>
+            <a href="./skills.html"><div class="nav-button">SKILLS</div></a>
+            <a href="./projects.html"><div class="nav-button">PROJECTS</div></a>
+            <a href="./resume.html"><div class="nav-button">RESUME</div></a>
+            <a href="./contact.html"><div class="nav-button">CONTACT</div></a>
+        </div>
+        <div class="nav-menu">
+            <a href="./home.html"><img src="./images/home.png" alt="home-icon" class="menu-icon"></a>
+            <img src="./images/menu-icon.png" alt="" class="menu-icon" onclick="toggleMenu()"">
+        </div>
+        <div id="menu-links">
+            <a href="./home.html">HOME</a>
+            <a href="./skills.html">SKILLS</a>
+            <a href="./projects.html">PROJECTS</a>
+            <a href="./resume.html">RESUME</a>
+            <a href="./contact.html">CONTACT</a>
+        </div>
+        <div class="main-content">
+           <div class="resume-header">
+                <h2 class="resume-title">Brian Murray</h2>
+           </div>
+           <div class="text-container">
+                <div class="side-bar">
+                    <h2 class="section-title">Contact Information</h2>
+                    <p class="side-bar-text">Phone: 902-818-7441 <br> brianmurraysound@gmail.com <br> github.com/brianeshores</p>
+                    <h2 class="section-title">Languages</h2>
+                    <ul>
+                        <li>Javascript (ES6)</li>
+                        <li>HTML</li>
+                        <li>CSS(SASS)</li>
+                        <li>JAVA</li>
+                        <li>Ruby</li>
+                        <li>Python</li>
+                        <li>SQL</li>
+                    </ul>
+                    <h2 class="section-title">LIBRARIES/FRAMEWORKS</h2>
+                    <ul>
+                        <li>React</li>
+                        <li>Redux</li>
+                        <li>Node.js</li>
+                        <li>Ruby on Rails</li>
+                        <li>JQuery</li>
+                        <li>Express</li>
+                        <li>Web Sockets</li>
+                    </ul>
+                    <h2 class="section-title">DATABASE SYSTEMS</h2>
+                    <ul>
+                        <li>mySQL</li>
+                        <li>MongoDB</li>
+                    </ul>
+                    <h2 class="section-title">OTHER</h2>
+                    <ul>
+                        <li>Git</li>
+                        <li>Jira</li>
+                        <li>Cisco Networking Systems</li>
+                    </ul>
+            </div>
+                <div class="text-main">
+                    <h2 class="section-title">EMPLOYMENT HISTORY</h2>
+                    <h3 class="small-bold-text">Front-end Web Developer</h3>
+                    <h4 class="sub-title">Verb Interactive | 2020</h4>
+                    <ul>
+                        <li>Worked with a small team to create and enhance efficient and reusable front-end systems for complex web and mobile applications.</li>
+                        <li>Developed new front-end web based features focused on improving the users experience.</li>
+                        <li>Translated designs and wireframes into functional application code.</li>
+                        <li>Shadowed senior developer during new project build.</li>
+                    </ul>
+                    <h3 class="small-bold-text">Sound Engineer</h3>
+                    <h4 class="sub-title">Self Employed | 2008-2021</h4>
+                    <ul>
+                        <li>Managed and maintained professional multitrack recording facilities</li>
+                        <li>Managed project logistics with a focus on meating deadlines and budget restrictions</li>
+                        <li>Worked with clients during post production mixing to ensure both personal standards and desired aesthetic was achieved</li>
+                    </ul>
+                    <h3 class="small-bold-text">Covid Technician Team Lead</h3>
+                    <h4 class="sub-title">PRAXES Medical Group | 2021-2022</h4>
+                    <ul>
+                        <li>Organized and set up COVID pop-up clinics across Nova Scotia with a focus on ensuring both employee and public safety.</li>
+                        <li>Trained Volunteers and new hires in various roles to facilitate COVID testing and data collection.</li>
+                        <li>Collected medical data while ensuring client confidentiality.</li>
+                    </ul>
+                    <h2 class="section-title">ACADEMIC BACKGROUND</h2>
+                    <h3 class="small-bold-text">NSCC | Currently Enrolled</h3>
+                    <h4 class="sub-title">IT Programming diploma program</h4>
+                    <h3 class="small-bold-text">Lighthouse Labs | 2019</h3>
+                    <h4 class="sub-title">Full Stack Web Development Bootcamp</h4>
+                </div>
+           </div>
+        <div class="footer">
+            <a  href="https://github.com/brianeshores"><img class="social-image" src="./images/github.png" alt="github-logo"></a>
+            <a  href="https://www.linkedin.com/in/brian-murray23/"><img class="social-image" src="./images/linkedin.png" alt="Linkedin logo"></a>        </div>
+    </div> 
+</body>
+<script>function toggleMenu() {
+    var x = document.getElementById("menu-links");
+    if (x.classList == "active-menu") {
+      x.classList.remove("active-menu");
+    } else {
+      x.classList.add("active-menu");
+    }
+  }</script>
+</html>

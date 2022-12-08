@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./global.css">
+    <link rel="stylesheet" href="./home.css">
+    <link rel="stylesheet" href="https://use.typekit.net/dcf6kyk.css">
+    <link rel="stylesheet" href="https://use.typekit.net/dcf6kyk.css">
+    <title>Brian Murray</title>
+</head>
+<body>
+    <div class="main">
+        <img src="./images/backgroundtexture.png" alt="background texture" class="background">
+        <div class="header">
+            <a href="./home.html"><div class="nav-button">HOME</div></a>
+            <a href="./skills.html"><div class="nav-button">SKILLS</div></a>
+            <a href="./projects.html"><div class="nav-button">PROJECTS</div></a>
+            <a href="./resume.html"><div class="nav-button">RESUME</div></a>
+            <a href="./contact.html"><div class="nav-button">CONTACT</div></a>
+        </div>
+        <div class="nav-menu">
+            <a href="./home.html"><img src="./images/home.png" alt="home-icon" class="menu-icon"></a>
+            <img src="./images/menu-icon.png" alt="menu-icon" class="menu-icon" onclick="toggleMenu()">
+        </div>
+        <div id="menu-links">
+            <a href="./home.html">HOME</a>
+            <a href="./skills.html">SKILLS</a>
+            <a href="./projects.html">PROJECTS</a>
+            <a href="./resume.html">RESUME</a>
+            <a href="./contact.html">CONTACT</a>
+        </div>
+        <div class="main-content">
+            <div class="image-container">
+                <img class="head-shot" src="./images/headshot.png" alt="Brian Murray Headshot">
+             </div>
+            <div class="main-text-container">
+                <h1 class="name-text">BRIAN MURRAY</h1>
+                <h2 class="title-text">WEB DEVELOPER</h2>
+                <div class="star-border"></div>
+                <p class="paragraph-text">Hello, I'm an aspiring Full Stack Web Developer and programmer. I have a background as a sound engineer and musician and have worked with many award winning artists in the past. <br><br> I began my journey as a programmer 3 years ago by completing a full-stack web development bootcamp at Lighthouse Labs in Toronto.  Building off of that, I am currently enrolled in IT Programming at NSCC.<br><br>I enjoy learning new technologies and languages and am always looking for opportunities to hone my skills through doing.</p>
+            </div>     
+        </div>
+        <div class="footer">
+            <a  href="https://github.com/brianeshores"><img class="social-image" src="./images/github.png" alt="github-logo"></a>
+            <a  href="https://www.linkedin.com/in/brian-murray23/"><img class="social-image" src="./images/linkedin.png" alt="Linkedin logo"></a>
+        </div>
+    </div>
+</body>
+<script>function toggleMenu() {
+    var x = document.getElementById("menu-links");
+    if (x.classList == "active-menu") {
+      x.classList.remove("active-menu");
+    } else {
+      x.classList.add("active-menu");
+    }
+  }</script>
+</html>
